@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cosimo Benvenuti — Game Developer</title>
+  <meta name="description" content="Cosimo Benvenuti — Game Developer. Gameplay programming, Unity, C#, Unreal Engine 5. Portfolio e contatti." />
+  <meta name="author" content="Cosimo Benvenuti" />
+  <meta name="theme-color" content="#0b0e14" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Cosimo Benvenuti — Game Developer" />
+  <meta property="og:description" content="Game programmer with 5+ years of experience in gameplay programming and team collaboration." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/profile.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}.bar i{width:var(--w)!important}</style></noscript>
+</head>
+<body>
+  <!-- ===== Header / Nav ===== -->
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a href="#top" class="brand" aria-label="Cosimo Benvenuti — home">
+        <span class="brand-mark">CB</span>
+        <span class="brand-name">Cosimo Benvenuti</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Apri menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about" data-i18n="nav.about">Profilo</a>
+        <a href="#experience" data-i18n="nav.experience">Esperienza</a>
+        <a href="#projects" data-i18n="nav.projects">Progetti</a>
+        <a href="#skills" data-i18n="nav.skills">Competenze</a>
+        <a href="#contact" data-i18n="nav.contact">Contatti</a>
+        <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+          <span class="lang-it">IT</span><span class="lang-sep">/</span><span class="lang-en">EN</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero container" id="hero">
+      <div class="hero-text reveal">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Game Developer · Unity · C#</p>
+        <h1 class="hero-title">Cosimo<br />Benvenuti</h1>
+        <p class="hero-lead" data-i18n="hero.lead">
+          Game programmer con oltre 5 anni di esperienza, specializzato in gameplay programming e collaborazione di team. Amo costruire esperienze di gioco curate e migliorarmi costantemente seguendo i trend del settore.
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary" data-i18n="hero.cta1">Contattami</a>
+          <a href="assets/cv.jpg" target="_blank" rel="noopener" class="btn btn-ghost" data-i18n="hero.cta2">Scarica il CV</a>
+        </div>
+        <ul class="hero-stats">
+          <li><strong>5+</strong><span data-i18n="hero.stat1">anni di esperienza</span></li>
+          <li><strong>C# · Unity</strong><span data-i18n="hero.stat2">stack principale</span></li>
+          <li><strong>Lead &amp; Teacher</strong><span data-i18n="hero.stat3">ruoli attuali</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-photo reveal">
+        <div class="window photo-window">
+          <div class="window-bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="win-name">cosimo.jpg</span></div>
+          <img src="assets/profile.jpg" alt="Cosimo Benvenuti" />
+        </div>
+        <pre class="code-snippet" aria-hidden="true"><code><span class="k">public class</span> <span class="t">Developer</span>
+{
+    <span class="k">string</span> Name = <span class="s">"Cosimo Benvenuti"</span>;
+    <span class="k">string</span> Role = <span class="s">"Game Developer"</span>;
+    <span class="k">string</span>[] Stack = { <span class="s">"C#"</span>, <span class="s">"Unity"</span> };
+    <span class="k">bool</span> OpenToWork = <span class="n">true</span>;
+}</code></pre>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section container" id="about">
+      <header class="section-head reveal">
+        <span class="section-num">01</span>
+        <h2 data-i18n="about.title">Profilo</h2>
+      </header>
+      <div class="about-grid">
+        <p class="about-bio reveal" data-i18n="about.bio">
+          Sono un game developer focalizzato sulla programmazione del gameplay e sull'ottimizzazione di giochi mobile in Unity. Mi piace lavorare in team, trasformare idee in meccaniche solide e mantenere il codice pulito e performante. Oltre allo sviluppo, insegno Unity e C#, perché spiegare mi aiuta a capire ancora più a fondo.
+        </p>
+        <ul class="about-facts reveal">
+          <li><span data-i18n="about.fact1.k">Ruolo</span><strong data-i18n="about.fact1.v">Game Developer</strong></li>
+          <li><span data-i18n="about.fact2.k">Nascita</span><strong>12 / 06 / 2002</strong></li>
+          <li><span data-i18n="about.fact3.k">Nazionalità</span><strong data-i18n="about.fact3.v">Italiana</strong></li>
+          <li><span data-i18n="about.fact4.k">Disponibilità</span><strong data-i18n="about.fact4.v">Progetti & collaborazioni</strong></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Experience & Education ===== -->
+    <section class="section container" id="experience">
+      <header class="section-head reveal">
+        <span class="section-num">02</span>
+        <h2 data-i18n="exp.title">Esperienza & Formazione</h2>
+      </header>
+
+      <div class="exp-layout">
+        <!-- Experience timeline -->
+        <div class="timeline-col reveal">
+          <h3 class="col-title" data-i18n="exp.workTitle">Esperienza</h3>
+          <ol class="timeline">
+            <li class="timeline-item">
+              <div class="timeline-dot"></div>
+              <p class="timeline-period"><span data-i18n="common.feb">feb</span> 2026 — <span data-i18n="common.now">oggi</span></p>
+              <h4>Game Programmer</h4>
+              <p class="timeline-org">GFCreativeLab · Freelance</p>
+              <p class="timeline-loc" data-i18n="exp.gf.loc">Firenze, Italia · Da remoto</p>
+              <ul class="timeline-points">
+                <li data-i18n="exp.gf.1">Sviluppo come Game Programmer freelance dei progetti assegnati dall'azienda.</li>
+                <li data-i18n="exp.gf.2">Implementazione di meccaniche di gioco e programmazione di sistemi di gameplay.</li>
+                <li data-i18n="exp.gf.3">Integrazione di funzionalità tecniche in collaborazione con il team creativo (progetto: Timeater).</li>
+              </ul>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-dot"></div>
+              <p class="timeline-period">2025 — <span data-i18n="common.now">oggi</span></p>
+              <h4>Lead Unity Developer</h4>
+              <p class="timeline-org">We Are From The Behemoth</p>
+              <ul class="timeline-points">
+                <li data-i18n="exp.behemoth.1">Sviluppo di giochi mobile in Unity per Android e iOS.</li>
+                <li data-i18n="exp.behemoth.2">Coordinamento del team di sviluppo e gestione delle attività quotidiane (planning, review, supporto tecnico).</li>
+                <li data-i18n="exp.behemoth.3">Progettazione e implementazione di gameplay e UI principali.</li>
+                <li data-i18n="exp.behemoth.4">Ottimizzazione di performance e stabilità su mobile (profiling, riduzione draw call e memoria, FPS).</li>
+                <li data-i18n="exp.behemoth.5">Integrazione di API di pagamento / acquisti in-app (IAP) e gestione dei flussi d'acquisto.</li>
+              </ul>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-dot"></div>
+              <p class="timeline-period"><span data-i18n="common.aug">ago</span> 2025 — <span data-i18n="common.now">oggi</span></p>
+              <h4>Unity Instructor</h4>
+              <p class="timeline-org">Kodland</p>
+              <ul class="timeline-points">
+                <li data-i18n="exp.kodland.1">Insegnamento di Unity e C# attraverso lezioni pratiche.</li>
+                <li data-i18n="exp.kodland.2">Preparazione di esercizi e supporto ai progetti degli studenti.</li>
+                <li data-i18n="exp.kodland.3">Monitoraggio dei progressi e feedback personalizzati.</li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+
+        <!-- Education timeline -->
+        <div class="timeline-col reveal">
+          <h3 class="col-title" data-i18n="exp.eduTitle">Formazione</h3>
+          <ol class="timeline">
+            <li class="timeline-item">
+              <div class="timeline-dot"></div>
+              <p class="timeline-period">2021 — 2024</p>
+              <h4 data-i18n="edu.degree.title">Laurea in Game Programming</h4>
+              <p class="timeline-org">TheSign — Comics &amp; Arts Academy</p>
+              <p class="timeline-meta">27/30</p>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-dot"></div>
+              <p class="timeline-period">2016 — 2021</p>
+              <h4 data-i18n="edu.itis.title">ITIS — Istituto Tecnico Informatico</h4>
+              <p class="timeline-org" data-i18n="edu.itis.org">Indirizzo Informatica e Programmazione</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section container" id="projects">
+      <header class="section-head reveal">
+        <span class="section-num">03</span>
+        <h2 data-i18n="proj.title">Giochi & Progetti</h2>
+      </header>
+      <p class="section-intro reveal" data-i18n="proj.intro">Una selezione di giochi a cui ho lavorato, pubblicati su Steam e Google Play.</p>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <a class="project-cover" href="https://store.steampowered.com/app/3585430/TALPA/" target="_blank" rel="noopener">
+            <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3585430/8e692e8c78078bab37f1e0abf2abce3104c5d84d/header.jpg?t=1746043800" alt="TALPA — arcade 2D" loading="lazy" onerror="this.style.display='none'" />
+          </a>
+          <div class="project-body">
+            <div class="project-tag" data-i18n="proj.talpa.tag">Steam · Arcade 2D</div>
+            <h3>TALPA</h3>
+            <p data-i18n="proj.talpa.desc">Gioco arcade 2D “whack-a-mole” ambientato nella mente sognante di un bambino: colpisci le talpe e scopri il martello segreto che si trasforma nel leggendario Mjöllnir.</p>
+            <ul class="project-stack"><li>Unity</li><li>C#</li><li>2D</li><li>Physics</li></ul>
+            <a class="project-link" href="https://store.steampowered.com/app/3585430/TALPA/" target="_blank" rel="noopener"><span data-i18n="proj.cta.steam">Vedi su Steam</span> ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-cover" href="https://store.steampowered.com/app/3320250/Timeater/" target="_blank" rel="noopener">
+            <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3320250/154ca093028534a5f6e3c1548753e70b449a188f/header.jpg?t=1761226839" alt="Timeater — action roguelike pixel art" loading="lazy" onerror="this.style.display='none'" />
+            <span class="cover-badge" data-i18n="proj.timeater.badge">In arrivo · 2026</span>
+          </a>
+          <div class="project-body">
+            <div class="project-tag" data-i18n="proj.timeater.tag">Steam · Roguelike</div>
+            <h3>Timeater</h3>
+            <p data-i18n="proj.timeater.desc">Action roguelike 2D in pixel art incentrato sulla manipolazione del tempo e su una narrazione ramificata. Sviluppato in GFCreativeLab.</p>
+            <ul class="project-stack"><li>Unity</li><li>C#</li><li>Pixel Art</li><li>Roguelike</li></ul>
+            <a class="project-link" href="https://store.steampowered.com/app/3320250/Timeater/" target="_blank" rel="noopener"><span data-i18n="proj.cta.steam">Vedi su Steam</span> ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-cover" href="https://play.google.com/store/apps/details?id=com.WearefortheBehemoth.Munchymals" target="_blank" rel="noopener">
+            <img src="https://play-lh.googleusercontent.com/VDAuK2x25YaGCcYEIlseD1BiifF0PjIZequvzaUflfNTvRWp7SVO2ko2NHHwuZ2vEYQBzsDGodOUzw-9OXYPGw=w480" alt="Munchymals — arcade 3D" loading="lazy" onerror="this.style.display='none'" />
+          </a>
+          <div class="project-body">
+            <div class="project-tag" data-i18n="proj.munchymals.tag">Google Play · Arcade 3D</div>
+            <h3>Munchymals</h3>
+            <p data-i18n="proj.munchymals.desc">Arcade 3D ispirato al classico Pac-Man, in terza persona e con animali come personaggi giocabili. Esplora i livelli e collezionali tutti.</p>
+            <ul class="project-stack"><li>Unity</li><li>C#</li><li>3D</li><li>Mobile</li></ul>
+            <a class="project-link" href="https://play.google.com/store/apps/details?id=com.WearefortheBehemoth.Munchymals" target="_blank" rel="noopener"><span data-i18n="proj.cta.play">Vedi su Google Play</span> ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="demo-block reveal">
+        <h3 class="demo-title" data-i18n="proj.demo.title">Clip di gameplay</h3>
+        <p class="demo-note" data-i18n="proj.demo.note">Estratti da un gioco mobile sviluppato in Unity.</p>
+        <div class="demo-grid">
+          <video controls muted playsinline preload="none" poster="assets/demo2.jpg">
+            <source src="assets/demo2.mp4" type="video/mp4" />
+          </video>
+          <video controls muted playsinline preload="none" poster="assets/demo1.jpg">
+            <source src="assets/demo1.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+
+      <p class="projects-note reveal" data-i18n="proj.note">Vuoi aggiungere altri titoli, screenshot o trailer? Posso integrarli quando vuoi.</p>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section container" id="skills">
+      <header class="section-head reveal">
+        <span class="section-num">04</span>
+        <h2 data-i18n="skills.title">Competenze</h2>
+      </header>
+      <div class="skills-layout">
+        <div class="skills-bars reveal">
+          <div class="skill"><div class="skill-head"><span>C#</span><em data-i18n="skills.lvl.expert">Esperto</em></div><div class="bar"><i style="--w:96%"></i></div></div>
+          <div class="skill"><div class="skill-head"><span>Unity</span><em data-i18n="skills.lvl.expert">Esperto</em></div><div class="bar"><i style="--w:94%"></i></div></div>
+          <div class="skill"><div class="skill-head"><span>Unreal Engine 5</span><em data-i18n="skills.lvl.adv">Avanzato</em></div><div class="bar"><i style="--w:75%"></i></div></div>
+          <div class="skill"><div class="skill-head"><span>ShaderGraph</span><em data-i18n="skills.lvl.adv">Avanzato</em></div><div class="bar"><i style="--w:72%"></i></div></div>
+          <div class="skill"><div class="skill-head"><span>Git</span><em data-i18n="skills.lvl.inter">Intermedio</em></div><div class="bar"><i style="--w:60%"></i></div></div>
+          <div class="skill"><div class="skill-head"><span>Godot</span><em data-i18n="skills.lvl.inter">Intermedio</em></div><div class="bar"><i style="--w:55%"></i></div></div>
+        </div>
+        <div class="skills-side reveal">
+          <h3 data-i18n="skills.focusTitle">Aree di focus</h3>
+          <ul class="chips">
+            <li data-i18n="skills.chip1">Gameplay programming</li>
+            <li data-i18n="skills.chip2">Ottimizzazione mobile</li>
+            <li data-i18n="skills.chip3">UI / UX in-game</li>
+            <li data-i18n="skills.chip4">In-App Purchases</li>
+            <li data-i18n="skills.chip5">Team leadership</li>
+            <li data-i18n="skills.chip6">Insegnamento</li>
+          </ul>
+          <h3 data-i18n="skills.langTitle">Lingue</h3>
+          <ul class="chips">
+            <li data-i18n="skills.lang1">Italiano — madrelingua</li>
+            <li data-i18n="skills.lang2">Inglese — professionale</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section container" id="contact">
+      <div class="contact-card reveal">
+        <h2 data-i18n="contact.title">Lavoriamo insieme</h2>
+        <p data-i18n="contact.lead">Sei interessato a una collaborazione o a un colloquio? Scrivimi: rispondo volentieri.</p>
+        <div class="contact-links">
+          <a href="mailto:cosimo.programminginfo@gmail.com" class="btn btn-primary">cosimo.programminginfo@gmail.com</a>
+          <a href="tel:+393457344394" class="btn btn-ghost">+39 345 7344394</a>
+          <a href="https://www.linkedin.com/in/cosimo-benvenuti-09ab47310/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Cosimo Benvenuti</span>
+      <a href="#top" data-i18n="footer.top">Torna su ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
