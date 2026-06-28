@@ -43,6 +43,9 @@ const I18N = {
     "edu.degree.title": "Laurea in Game Programming",
     "edu.itis.title": "ITIS — Istituto Tecnico Informatico",
     "edu.itis.org": "Indirizzo Informatica e Programmazione",
+    "common.months": "mesi",
+    "edu.kaplan.title": "Corso di Inglese — Livello B2",
+    "edu.kaplan.meta": "Soggiorno studio negli USA, vivendo a Los Angeles.",
 
     "proj.title": "Giochi & Progetti",
     "proj.intro": "Una selezione di giochi a cui ho lavorato, pubblicati su Steam e Google Play.",
@@ -55,8 +58,8 @@ const I18N = {
     "proj.munchymals.desc": "Arcade 3D ispirato al classico Pac-Man, in terza persona e con animali come personaggi giocabili. Esplora i livelli e collezionali tutti.",
     "proj.cta.steam": "Vedi su Steam",
     "proj.cta.play": "Vedi su Google Play",
-    "proj.demo.title": "Clip di gameplay",
-    "proj.demo.note": "Estratti da un gioco mobile sviluppato in Unity.",
+    "proj.demo.title": "Gameplay & sviluppo",
+    "proj.demo.note": "Clip di gameplay e di sviluppo dei miei progetti in Unity.",
     "proj.note": "Vuoi aggiungere altri titoli, screenshot o trailer? Posso integrarli quando vuoi.",
 
     "skills.title": "Competenze",
@@ -121,6 +124,9 @@ const I18N = {
     "edu.degree.title": "Bachelor's Degree in Game Programming",
     "edu.itis.title": "ITIS — Technical Institute for IT",
     "edu.itis.org": "Computer Programming specialization",
+    "common.months": "months",
+    "edu.kaplan.title": "English Course — Level B2",
+    "edu.kaplan.meta": "Study abroad in the USA, living in Los Angeles.",
 
     "proj.title": "Games & Projects",
     "proj.intro": "A selection of games I've worked on, published on Steam and Google Play.",
@@ -133,8 +139,8 @@ const I18N = {
     "proj.munchymals.desc": "A 3D arcade inspired by classic Pac-Man, in third person with animals as playable characters. Explore the levels and collect them all.",
     "proj.cta.steam": "View on Steam",
     "proj.cta.play": "View on Google Play",
-    "proj.demo.title": "Gameplay clips",
-    "proj.demo.note": "Clips from a mobile game developed in Unity.",
+    "proj.demo.title": "Gameplay & development",
+    "proj.demo.note": "Gameplay and development clips from my Unity projects.",
     "proj.note": "Want to add more titles, screenshots or trailers? I can integrate them anytime.",
 
     "skills.title": "Skills",
